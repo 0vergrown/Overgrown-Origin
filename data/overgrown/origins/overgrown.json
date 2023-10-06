@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"overgrown:thorn_vault",
+		"overgrown:roots",
+		"overgrown:fertilizing_feet",
+		"overgrown:mossy_gauntlets",
+		"overgrown:photosynthesis",
+		"overgrown:green",
+		"overgrown:very_flammable",
+		"overgrown:no_water"
+	],
+	"icon": "minecraft:vine",
+	"order": 10,
+	"impact": 2,
+	"name": "Overgrown",
+	"description": "Human that spent too much time in lush caves."
+}

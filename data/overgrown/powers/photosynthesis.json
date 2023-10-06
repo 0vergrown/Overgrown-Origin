@@ -1,0 +1,24 @@
+{
+    "name": "Photosynthesis",
+    "description": "You slowly regain hunger points while exposed to the sun.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 2,
+        "saturation": 1
+    },
+    "interval": 60,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {      
+                "type": "origins:food_level",
+                "comparison": "!=",
+                "compare_to": 20
+            }
+        ]
+    }
+}

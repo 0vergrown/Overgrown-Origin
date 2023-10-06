@@ -1,0 +1,9 @@
+{
+    "name": "Green!",
+    "description": "Your skin is 10% more green.",
+    "type": "origins:model_color",
+    "red": 0.22,
+    "green": 1.50,
+    "blue": 0.32,
+    "alpha": 1
+}
